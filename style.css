@@ -45,24 +45,6 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* element principal */
 main
 {
@@ -99,10 +81,20 @@ aside
     background-color: #FFB300; 
    
 }
-figure
+
+figure img
 {
-     padding: 100px 100px 100px 130px ;
+    border-radius: 50%;
+	border: 4px solid rgba(0, 0, 0, 0.5);
+    margin: 50px 50px 50px 62px;
+    padding: ; 
+    width: 60%;
+    height: 180px;
+   
 }
+
+
+
 aside h3 
 {
     background-color: #616161;
@@ -112,15 +104,15 @@ aside h3
 }
 #coordonnée
 {
-  padding: 40px 40px 40px 40px;
-  margin-bottom: -30px;
+    padding: 40px 40px 40px 40px;
+    margin-bottom: -30px;
   
 }
 #moi
 {
-  text-align: justify;
-  padding: 40px 40px 40px 40px;
-  margin-bottom: 400px;
+    text-align: justify;
+    padding: 40px 40px 40px 40px;
+    margin-bottom: 400px;
 }
 
 .ico_loisir
@@ -137,7 +129,7 @@ aside h3
 }
 #icon
 {
-     display: flex;
+    display: flex;
     justify-content: space-around;
 }
 
@@ -158,9 +150,9 @@ article header
 }
 article h1
 {
-   font-weight: bold;
-   font-size: 50px;
-   margin-bottom: 200px;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 200px;
 }
 #colorlabarre 
 {
@@ -168,7 +160,7 @@ article h1
 }
 #bc
 {
-   border-bottom:  3px solid #FFB300 ;
+    border-bottom:  3px solid #FFB300 ;
 }
 article h2
 {
@@ -188,10 +180,10 @@ article h3
 
 #exp ,#form
 {
-   display: flex;
-   text-align: justify;
-   justify-content:space-between;
-   margin-bottom: 50px;
+    display: flex;
+    text-align: justify;
+    justify-content:space-between;
+    margin-bottom: 50px;
 }
 #date:nth-child(1)
 {
@@ -204,15 +196,14 @@ article h3
 }
 #recommandation
 {
-  display: flex; 
-  justify-content: space-between;
-  margin-top: -20px;
+    display: flex; 
+    justify-content: space-between;
+    margin-top: -20px;
   
   
 }
 #descriptif
 {
-    color: red;
     text-align: justify;
     position: relative;
     margin-top: -30px;
@@ -228,3 +219,5 @@ article h4
 {
     margin-top: 200px;
 }
+
+
