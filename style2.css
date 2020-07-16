@@ -1,0 +1,276 @@
+/* typographie */
+@font-face {
+    font-family: 'amblelight';
+    src: url('amble-light-webfont.woff2') format('woff2'),
+         url('amble-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ambleregular';
+    src: url('amble-regular-webfont.woff2') format('woff2'),
+         url('amble-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'amblebold';
+    src: url('amble-bold-webfont.woff2') format('woff2'),
+         url('amble-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ambleitalic';
+    src: url('amble-italic-webfont.woff2') format('woff2'),
+         url('amble-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/* element principal */
+main
+{
+   background-color: #FFFFFF;
+   color: red;
+   font-family: sans-serif;
+   font-size: 1,3em;
+   display: flex;
+   flex-direction: row;
+   
+}
+
+aside h3, article h1, article h3, article h4
+{
+    text-transform: uppercase;
+}
+aside:nth-child(1)
+{
+    flex: 1;
+}
+article:nth-child(2)
+{
+    flex: 2;
+}
+
+
+
+
+
+
+/* aside */
+aside
+{
+    background-color: #FFB300; 
+   
+}
+
+figure img
+{
+    border-radius: 50%;
+	border: 4px solid rgba(0, 0, 0, 0.5);
+    margin: 50px 50px 50px 62px;
+    padding: ; 
+    width: 60%;
+    height: 180px;
+   
+}
+
+
+
+aside h3 
+{
+    background-color: #616161;
+    color: #FFB300;
+    font-size: 30px;
+    text-align: center;
+}
+#coordonnée
+{
+    padding: 40px 40px 40px 40px;
+    margin-bottom: -30px;
+  
+}
+#moi
+{
+    text-align: justify;
+    padding: 40px 40px 40px 40px;
+    margin-bottom: 400px;
+}
+
+.ico_loisir
+{
+	margin-right: 0px;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    border: 2px solid black;
+    border-radius: 50%;
+   
+    
+	align-items: center;
+}
+#icon
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+/* article */
+
+article
+{
+    
+    padding-left: 40px;
+    text-align: justify;
+}
+article header
+{
+    margin-top:     140px;
+    
+}
+article h1
+{
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 200px;
+}
+#colorlabarre 
+{
+    color: #FFB300;   
+}
+#bc
+{
+    border-bottom:  3px solid #FFB300 ;
+}
+article h2
+{
+    margin-top: -200px;
+    margin-bottom: 200px;
+}
+
+article h3
+{
+    font-size: 30px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    border-bottom: 3px solid #FFB300;
+}
+ 
+
+
+#exp ,#form
+{
+    display: flex;
+    text-align: justify;
+    justify-content:space-between;
+    margin-bottom: 50px;
+}
+#date:nth-child(1)
+{
+    flex: 1;
+}
+#descriptif:nth-child(2)
+{
+    flex: 2;
+    
+}
+#recommandation
+{
+    display: flex; 
+    justify-content: space-between;
+    margin-top: -20px;
+  
+  
+}
+#descriptif
+{
+    text-align: justify;
+    position: relative;
+    margin-top: -30px;
+   
+}
+article h4
+{
+    position: relative;
+    top: 10px;
+     
+}
+#formations
+{
+    margin-top: 200px;
+}
+
+
+/* css pour un site résponsive */
+
+@media all and (max-width: 500px)
+{
+    /* élement principale */
+main
+{
+    display: flex;
+    flex-direction: column;
+        
+} 
+
+    /* aside */
+aside h3
+{
+    font-size: 18px;   
+    
+}
+    
+figure img
+{
+    border-radius: 50%;
+    border: 4px solid rgba(0, 0, 0, 0.5);
+    margin: 50px 50px 50px 110px;
+    width: 30%;
+    height: 180px;
+   
+}
+ 
+    /* article */
+    
+#exp ,#form, #recommandation
+{
+    display: block;
+        
+}
+article h1
+{
+    font-size: 23px;    
+}
+    
+    
+    
+article h3
+{
+    font-size: 18px;
+}
+article h4
+{
+    font-size: 14px;
+}    
+    
+}
