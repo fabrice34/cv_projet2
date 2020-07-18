@@ -115,7 +115,7 @@ aside h3
     margin-bottom: 400px;
 }
 
-.ico_loisir
+.icon_loisir
 {
 	margin-right: 0px;
     width: 40px;
@@ -178,18 +178,18 @@ article h3
  
 
 
-#exp ,#form
+.exp ,.form
 {
     display: flex;
     text-align: justify;
     justify-content:space-between;
     margin-bottom: 50px;
 }
-#date:nth-child(1)
+.date:nth-child(1)
 {
     flex: 1;
 }
-#descriptif:nth-child(2)
+.descriptif:nth-child(2)
 {
     flex: 2;
     
@@ -202,7 +202,7 @@ article h3
   
   
 }
-#descriptif
+.descriptif
 {
     text-align: justify;
     position: relative;
@@ -217,7 +217,7 @@ article h4
 }
 #formations
 {
-    margin-top: 200px;
+    margin-top: 201px;
 }
 
 
@@ -252,7 +252,7 @@ figure img
  
     /* article */
     
-#exp ,#form, #recommandation
+.exp ,.form, #recommandation
 {
     display: block;
         
