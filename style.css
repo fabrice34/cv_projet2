@@ -45,7 +45,7 @@
 }
 
 
-/* element principal */
+/*------------------------------------------ element principal------------------------------------------ */
 main
 {
    background-color: #FFFFFF;
@@ -60,6 +60,11 @@ main
 aside h3, article h1, article h3, article h4
 {
     text-transform: uppercase;
+
+}
+article h1, article h3, aside h3
+{
+    text-shadow: 0px 0px 2px black;
 }
 aside:nth-child(1)
 {
@@ -75,10 +80,10 @@ article:nth-child(2)
 
 
 
-/* aside */
+/*------------------------------------------ aside------------------------------------------ */
 aside
 {
-    background-color: #FFB300; 
+    background-color: #B388FF; 
    
 }
 
@@ -93,12 +98,10 @@ figure img
    
 }
 
-
-
 aside h3 
 {
     background-color: #616161;
-    color: #FFB300;
+    color: #B388FF;
     font-size: 30px;
     text-align: center;
 }
@@ -117,25 +120,27 @@ aside h3
 
 .icon_loisir
 {
-	margin-right: 0px;
+	
     width: 40px;
     height: 40px;
     font-size: 30px;
     border: 2px solid black;
     border-radius: 50%;
-   
+     
     
-	align-items: center;
 }
 #icon
 {
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
+    position:relative;
+    height: 75px;
 }
 
 
 
-/* article */
+/* ------------------------------------------article------------------------------------------ */
 
 article
 {
@@ -156,11 +161,11 @@ article h1
 }
 #colorlabarre 
 {
-    color: #FFB300;   
+    color: #B388FF;   
 }
 #bc
 {
-    border-bottom:  3px solid #FFB300 ;
+    border-bottom:  3px solid #B388FF ;
 }
 article h2
 {
@@ -173,7 +178,8 @@ article h3
     font-size: 30px;
     margin-top: 150px;
     margin-bottom: 100px;
-    border-bottom: 3px solid #FFB300;
+    border-bottom: 3px solid #B388FF;
+
 }
  
 
@@ -217,13 +223,13 @@ article h4
 }
 #formations
 {
-    margin-top: 201px;
+    margin-top: 200px;
 }
 
 
-/* css pour un site résponsive */
+/* ------------------------------------------css pour un site résponsive(Médias queries) ------------------------------------------*/
 
-@media all and (max-width: 500px)
+@media all and (max-width: 768px)
 {
     /* élement principale */
 main
@@ -233,7 +239,7 @@ main
         
 } 
 
-    /* aside */
+    /*------------------------------------------ aside ------------------------------------------*/
 aside h3
 {
     font-size: 18px;   
@@ -250,7 +256,7 @@ figure img
    
 }
  
-    /* article */
+    /*------------------------------------------ article ------------------------------------------*/
     
 .exp ,.form, #recommandation
 {
