@@ -92,7 +92,6 @@ figure img
     border-radius: 50%;
     border: 4px solid rgba(0, 0, 0, 0.5);
     margin: 50px 50px 50px 62px;
-    padding: ; 
     width: 60%;
     height: 180px;
    
@@ -134,8 +133,8 @@ aside h3
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    position:relative;
-    height: 75px;
+    position: relative;
+    margin-top: 45px;
 }
 
 
@@ -150,14 +149,15 @@ article
 }
 article header
 {
-    margin-top:     140px;
-    
+    margin-top:     110px;
+    margin-bottom:  -60px;
 }
 article h1
 {
     font-weight: bold;
     font-size: 50px;
     margin-bottom: 200px;
+   
 }
 #colorlabarre 
 {
@@ -184,13 +184,14 @@ article h3
  
 
 
-.exp ,.form
+.exp, .form
 {
     display: flex;
     text-align: justify;
     justify-content:space-between;
     margin-bottom: 50px;
 }
+
 .date:nth-child(1)
 {
     flex: 1;
@@ -245,6 +246,12 @@ aside h3
     font-size: 18px;   
     
 }
+ #icon
+{
+    margin: 10px 15px 15px 10px;
+}
+   
+    
     
  
     /*------------------------------------------ article ------------------------------------------*/
@@ -252,18 +259,30 @@ aside h3
 .exp ,.form, #recommandation
 {
     display: block;
+    margin-bottom: 30px;
         
+}
+article header 
+{
+   margin-top: 10px; 
+   margin-bottom: -140px;
+
 }
 article h1
 {
-    font-size: 23px;    
+    font-size: 23px;  
 }
     
-    
+article h2
+{
+margin-bottom: 10px;      
+}
     
 article h3
 {
     font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
 article h4
 {
