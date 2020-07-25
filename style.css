@@ -46,23 +46,26 @@
 
 
 /*------------------------------------------ element principal------------------------------------------ */
-main
-{
+body
+{  
+   width: 100%;
+   height: auto;
+   margin: 0px;
+   padding: 0px;
+   overflow-x: hidden; 
    background-color: #FFFFFF;
    color: #212121;
    font-family: sans-serif;
    font-size: 1,3em;
-   display: flex;
+    display: flex;
    flex-direction: row;
-   
 }
-
-aside h3, article h1, article h3, article h4
+aside h3, main h1, main h3, main h4
 {
     text-transform: uppercase;
 
 }
-article h1, article h3, aside h3
+main h1, main h3, aside h3
 {
     text-shadow: 0px 0px 2px black;
 }
@@ -70,7 +73,7 @@ aside:nth-child(1)
 {
     flex: 1;
 }
-article:nth-child(2)
+main:nth-child(2)
 {
     flex: 2;
 }
@@ -93,7 +96,6 @@ figure img
     border: 4px solid rgba(0, 0, 0, 0.5);
     margin: 50px 50px 50px 62px;
     width : 60%;
-    height: 179px;
    
 }
 
@@ -141,18 +143,19 @@ aside h3
 
 /* ------------------------------------------article------------------------------------------ */
 
-article
+main
 {
     
     padding-left: 40px;
+    padding-right: 40px;
     text-align: justify;
 }
-article header
+main header
 {
     margin-top:     110px;
     margin-bottom:  -60px;
 }
-article h1
+main h1
 {
     font-weight: bold;
     font-size: 50px;
@@ -167,21 +170,24 @@ article h1
 {
     border-bottom:  3px solid #B388FF ;
 }
-article h2
+main h2
 {
     margin-top: -200px;
     margin-bottom: 200px;
 }
 
-article h3
+main h3
 {
     font-size: 30px;
-    margin-top: 150px;
-    margin-bottom: 100px;
+    margin-top: 230px;
+    margin-bottom: 50px;
     border-bottom: 3px solid #B388FF;
 
 }
- 
+ .formations
+{
+    margin-top: -100px;
+}  
 
 
 .exp, .form
@@ -198,34 +204,39 @@ article h3
 }
 .descriptif:nth-child(2)
 {
-    flex: 2;
-    
+    flex: 2;    
 }
-#recommandation
-{
-    display: flex; 
-    justify-content: space-between;
-    margin-top: -20px;
-  
-  
-}
+
 .descriptif
 {
     text-align: justify;
     position: relative;
-    margin-top: -30px;
-   
+    margin-top: -30px;   
 }
-article h4
+
+.recommandations
+{
+    margin-top: 
+}
+.personne
+{
+    display: flex; 
+    flex-direction: row;
+    margin-top: -20px;
+}
+
+article .r2
+{
+    margin-left: 50px;
+}
+
+main h4
 {
     position: relative;
     top: 10px;
      
 }
-#formations
-{
-    margin-top: 200px;
-}
+
 
 
 /* ------------------------------------------css pour un site résponsive(Médias queries) ------------------------------------------*/
@@ -233,7 +244,7 @@ article h4
 @media all and (max-width: 768px)
 {
     /* élement principale */
-main
+body
 {
     display: flex;
     flex-direction: column;
@@ -241,10 +252,27 @@ main
 } 
 
     /*------------------------------------------ aside ------------------------------------------*/
+aside
+{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
 aside h3
 {
     font-size: 18px;   
-    
+}
+
+#coordonnée
+{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#moi
+{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 0px;
 }
  #icon
 {
@@ -254,37 +282,49 @@ aside h3
     
     
  
-    /*------------------------------------------ article ------------------------------------------*/
+    /*------------------------------------------ main ------------------------------------------*/
     
-.exp ,.form, #recommandation
+.exp ,.form, .recommandations
 {
     display: block;
     margin-bottom: 30px;
         
 }
-article header 
+main header 
 {
-   margin-top: 10px; 
+   margin-top: 40px; 
    margin-bottom: -140px;
 
 }
-article h1
+main h1
 {
     font-size: 23px;  
 }
     
-article h2
+main h2
 {
 margin-bottom: 10px;      
 }
     
-article h3
+main h3
 {
     font-size: 18px;
     margin-top: 40px;
     margin-bottom: 30px;
 }
-article h4
+.formations
+{
+    margin-top: 180px;
+}
+.personne
+{
+    display: block;
+}
+article .r2
+{
+    margin-left: 0px;
+}
+main h4
 {
     font-size: 14px;
 }    
