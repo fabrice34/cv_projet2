@@ -51,7 +51,7 @@ body
    width: 100%;
    height: auto;
    margin: 0px;
-   padding: 0px;
+   padding-left: 0px;
    overflow-x: hidden; 
    background-color: #FFFFFF;
    color: #212121;
