@@ -250,17 +250,35 @@ body
     flex-direction: column;
         
 } 
+main
+{
+    order: 1;
+}
+
+aside
+{
+    order: 2;
+}
+
 
     /*------------------------------------------ aside ------------------------------------------*/
+
 aside
 {
     padding-left: 40px;
     padding-right: 40px;
 }
 
+figure img
+{
+    margin: 25px 25px 25px 45px;   
+}
+
 aside h3
 {
-    font-size: 18px;   
+    font-size: 18px;
+    margin-bottom: 0px;
+    margin-top: 0px;     
 }
 
 #coordonnée
