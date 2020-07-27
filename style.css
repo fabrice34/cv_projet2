@@ -56,23 +56,27 @@ body
    background-color: #FFFFFF;
    color: #212121;
    font-family: sans-serif;
-   font-size: 1,3em;
+   font-size: 15px;
     display: flex;
    flex-direction: row;
 }
+
 aside h3, main h1, main h3, main h4
 {
     text-transform: uppercase;
 
 }
+
 main h1, main h3, aside h3
 {
     text-shadow: 0px 0px 2px black;
 }
+
 aside:nth-child(1)
 {
     flex: 1;
 }
+
 main:nth-child(2)
 {
     flex: 2;
@@ -84,6 +88,7 @@ main:nth-child(2)
 
 
 /*------------------------------------------ aside------------------------------------------ */
+
 aside
 {
     background-color: #B388FF; 
@@ -106,12 +111,13 @@ aside h3
     font-size: 30px;
     text-align: center;
 }
+
 #coordonnée
 {
     padding: 40px 40px 40px 40px;
-    margin-bottom: -30px;
-  
+    margin-bottom: -30px;  
 }
+
 #moi
 {
     text-align: justify;
@@ -120,16 +126,14 @@ aside h3
 }
 
 .icon_loisir
-{
-    
+{    
     width: 40px;
     height: 40px;
     font-size: 30px;
     border: 2px solid black;
-    border-radius: 50%;
-     
-    
+    border-radius: 50%;    
 }
+
 #icon
 {
     display: flex;
@@ -150,26 +154,30 @@ main
     padding-right: 40px;
     text-align: justify;
 }
+
 main header
 {
     margin-top:     110px;
     margin-bottom:  -60px;
 }
+
 main h1
 {
     font-weight: bold;
     font-size: 50px;
-    margin-bottom: 200px;
-   
+    margin-bottom: 200px;   
 }
+
 #colorlabarre 
 {
     color: #B388FF;   
 }
+
 #bc
 {
     border-bottom:  3px solid #B388FF ;
 }
+
 main h2
 {
     margin-top: -200px;
@@ -182,9 +190,9 @@ main h3
     margin-top: 230px;
     margin-bottom: 50px;
     border-bottom: 3px solid #B388FF;
-
 }
- .formations
+
+.formations
 {
     margin-top: -100px;
 }  
@@ -214,10 +222,7 @@ main h3
     margin-top: -30px;   
 }
 
-.recommandations
-{
-    margin-top: 
-}
+
 .personne
 {
     display: flex; 
@@ -292,7 +297,8 @@ aside h3
     padding-right: 0px;
     margin-bottom: 0px;
 }
- #icon
+ 
+#icon
 {
     margin: 10px 15px 15px 10px;
 }
@@ -308,12 +314,13 @@ aside h3
     margin-bottom: 30px;
         
 }
+
 main header 
 {
    margin-top: 40px; 
    margin-bottom: -140px;
-
 }
+
 main h1
 {
     font-size: 23px;  
@@ -330,18 +337,22 @@ main h3
     margin-top: 40px;
     margin-bottom: 30px;
 }
+
 .formations
 {
     margin-top: 180px;
 }
+
 .personne
 {
     display: block;
 }
+
 article .r2
 {
     margin-left: 0px;
 }
+
 main h4
 {
     font-size: 14px;
