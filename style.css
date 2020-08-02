@@ -34,6 +34,7 @@
 
 
 
+
 @font-face {
     font-family: 'ambleitalic';
     src: url('amble-italic-webfont.woff2') format('woff2'),
@@ -55,7 +56,7 @@ body
    overflow-x: hidden; 
    background-color: #FFFFFF;
    color: #212121;
-   font-family: sans-serif;
+   font-family: 'ambleregular', sans-serif;
    font-size: 15px;
     display: flex;
    flex-direction: row;
